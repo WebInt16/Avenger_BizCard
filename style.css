@@ -1,0 +1,93 @@
+ *, *:before, *:after{
+  box-sizing: border-box;
+
+}
+
+body {
+  
+margin: 0;
+}
+.id-card-wrapper {
+  height: 100vh;
+  width: 100%;
+  background-color: #122023;
+  display: flex;
+}
+.id-card {
+  flex-basis:100%;
+  border: 2px solid #0AE0DF;
+  max-width: 30em;
+  margin: auto;
+  color: #fff;
+  padding: 1em;
+}
+
+p{
+	color:white;
+  font-size: 50px;
+  margin: 15px;
+  padding-left: 45px;
+  text-shadow: 1px 1.5px #EAEB2D;
+}
+
+.logo{
+  width: 60px;
+  height: 65px;
+  position: absolute;
+}
+
+#desc{
+  border-right : solid white 4px;
+  height: 30px;
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.profil-row{
+  display: flex;
+}
+
+.profil-row .dp{
+  flex-basis: 33,3%;
+  position: relative;
+}
+
+.profil-row .dp img{
+  max-width: 100%;
+  border-radius: 60%;
+  border: 2px solid #D4E7EB;
+  box-shadow: 6px 3px 0px 0px #EAEB2D;
+}
+
+.profil-row .desc{
+  flex-grow: 66,6%;
+  padding: 1em;
+}
+
+.profil-row .dp .dp-arc-inner{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 6px solid transparent;
+  border-top-color: #0AE0DF;
+  border-radius: 60%;
+  top: -6px;
+  left: -6px;
+
+  animation-duration: 2s;
+  animation-name: rotate-clock;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+@keyframes rotate-clock{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-360deg);
+  }
+}
+
+  }
+}*/
